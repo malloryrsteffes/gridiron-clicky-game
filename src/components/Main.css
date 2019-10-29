@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    min-height: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.click-item {
+    background-image: url("../images/zeke.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 190px;
+    width: 190px;
+    margin: 8px 25px;
+    border: 5px solid #f1f1f1;
+    border-radius: 3px;
+}
