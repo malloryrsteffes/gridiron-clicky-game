@@ -1,0 +1,10 @@
+nav {
+  background: silver;
+}
+
+.navbar-brand {
+  text-align: center;
+  width: 33%;
+  font-size: 25px;
+  font-weight: 900;
+}
