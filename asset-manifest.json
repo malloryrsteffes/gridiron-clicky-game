@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gridiron-clicky-game/static/css/main.f52aa94f.chunk.css",
+    "main.js": "/gridiron-clicky-game/static/js/main.ef2fb1ea.chunk.js",
+    "main.js.map": "/gridiron-clicky-game/static/js/main.ef2fb1ea.chunk.js.map",
+    "runtime-main.js": "/gridiron-clicky-game/static/js/runtime-main.c19324e1.js",
+    "runtime-main.js.map": "/gridiron-clicky-game/static/js/runtime-main.c19324e1.js.map",
+    "static/js/2.19c06209.chunk.js": "/gridiron-clicky-game/static/js/2.19c06209.chunk.js",
+    "static/js/2.19c06209.chunk.js.map": "/gridiron-clicky-game/static/js/2.19c06209.chunk.js.map",
+    "index.html": "/gridiron-clicky-game/index.html",
+    "precache-manifest.7e444744b93675c2cd078629bf9baa0e.js": "/gridiron-clicky-game/precache-manifest.7e444744b93675c2cd078629bf9baa0e.js",
+    "service-worker.js": "/gridiron-clicky-game/service-worker.js",
+    "static/css/main.f52aa94f.chunk.css.map": "/gridiron-clicky-game/static/css/main.f52aa94f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c19324e1.js",
+    "static/js/2.19c06209.chunk.js",
+    "static/css/main.f52aa94f.chunk.css",
+    "static/js/main.ef2fb1ea.chunk.js"
+  ]
+}
