@@ -1,0 +1,29 @@
+header {
+    margin: 0 auto;
+    background-image: url("http://www.backgroundsimg.com/picdir/md/football-field/backgroundsimg-american-football-field-yard-lines-north-alabama-lions-football-ball-game-aWsOo.jpg");
+    background-size: 100% 100%;
+    max-height: 400px;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.header h1 {
+    font-weight: 900;
+    color: black;
+    margin: 0;
+    font-size: 50px;
+}
+
+.header h2 {
+    color: black;
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.textBg {
+    margin: 0 auto;
+    padding: 20px;
+    width: 66%;
+    background: rgb(192, 192, 192, .7);
+}

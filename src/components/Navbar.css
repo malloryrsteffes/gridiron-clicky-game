@@ -1,5 +1,10 @@
-nav {
+.navbar {
   background: silver;
+  min-height: 70px;
+  width: 100%;
+  z-index: 99;
+  white-space: nowrap;
+  margin: 0;
 }
 
 .navbar-brand {
