@@ -13,6 +13,25 @@ class App extends Component {
     highScore: 0
   };
 
+  // Function to end the game
+  gameOver = () => {
+    // if the player's score is higher than high score, update the high score
+    if (this.state.score > this.state.highScore){
+      this.setState({highScore: this.state.score})
+    };
+
+    // set each card's "clicked" value to false
+    this.state.players.forEach(player => {
+      player.clicked = false;
+    });
+
+    // Tell the player the game is over
+    alert("Game Over! Score: " + this.state.score);
+    this.setState({score: 0});
+    return true;
+  }
+
+  // Function to handle when a player is clicked
   handleClick = id => {
     this.state.players.find((player, i) => {
       if (player.id === id) {
@@ -24,7 +43,7 @@ class App extends Component {
           this.state.players.sort(() => Math.random() - 0.5);
           return true;
         } else {
-          alert("Game Over!");
+          this.gameOver();
         }
       }
     });
