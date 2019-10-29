@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar score={this.state.score} highScore={this.state.highScore}/>
         <Header />
         <main className="container">
           {this.state.players.map(player => (
