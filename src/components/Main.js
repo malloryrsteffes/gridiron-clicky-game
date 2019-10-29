@@ -3,9 +3,12 @@ import "./Main.css";
 
 function Main(props) {
   return (
-    
-      <img className="click-item" alt={props.name} src={props.image} />
-    
+    <img
+      onClick={() => props.handleClick(props.id)}
+      className="click-item"
+      alt={props.name}
+      src={props.image}
+    />
   );
 }
 
