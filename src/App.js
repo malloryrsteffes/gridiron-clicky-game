@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 import players from "./players.json";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
             />
           ))}
         </main>
+        <Footer />
       </div>
     );
   }

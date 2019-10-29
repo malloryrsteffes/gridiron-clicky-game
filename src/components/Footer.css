@@ -1,0 +1,18 @@
+.footer {
+    height: 100px;
+    position: relative;
+    background: green;
+    overflow: auto;
+}
+
+.footerText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: 600;
+    color: white;
+    background: darkgreen;
+    padding: 8px;
+    
+}
