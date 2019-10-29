@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Header />
-        <div className="row">
+       <main className="container">
           {this.state.players.map(player => (
             <Main
               id={player.id}
@@ -23,7 +23,7 @@ class App extends Component {
               image={player.image}
             />
           ))}
-        </div>
+        </main>
       </div>
     );
   }
