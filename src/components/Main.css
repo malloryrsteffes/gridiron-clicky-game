@@ -9,11 +9,10 @@
 }
 
 .click-item {
-    background-image: url("../images/zeke.jpg");
     background-size: cover;
     background-position: 50%;
-    height: 190px;
-    width: 190px;
+    height: 220px;
+    width: 220px;
     margin: 8px 25px;
     border: 5px solid #f1f1f1;
     border-radius: 3px;
